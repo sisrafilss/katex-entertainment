@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import "./index.css";
 
 const Logo = ({ image, classOption }) => {
     return (
@@ -10,15 +11,7 @@ const Logo = ({ image, classOption }) => {
                 style={{ height: "40px", width: "40px" }}
                 alt="Logo"
             />
-            <span
-                style={{
-                    display: "inline-block",
-                    marginLeft: "10px",
-                    color: "red",
-                }}
-            >
-                Katex Entertainment
-            </span>
+            <span className="logo-text">Katex Entertainment</span>
         </Link>
     );
 };

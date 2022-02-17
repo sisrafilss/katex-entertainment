@@ -1,7 +1,8 @@
-import { useEffect, useRef } from "react";
-import PropTypes from "prop-types";
-import Button from "../button";
 import Parallax from "parallax-js";
+import PropTypes from "prop-types";
+import { useEffect, useRef } from "react";
+import Button from "../button";
+import "./index.css";
 
 const Intro = ({ data }) => {
     const sceneEl = useRef(null);
@@ -26,14 +27,9 @@ const Intro = ({ data }) => {
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             ></h2>
                             <Button
-                                classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
+                                classOption="btn btn-lg animated delay1 btn-dark btn-custom-hover  me-4 mb-3 mb-sm-0"
                                 text="Get Started"
                                 path="/about"
-                            />
-                            <Button
-                                classOption="btn btn-lg animated delay2 btn-secondary btn-hover-secondary mb-3 mb-sm-0"
-                                text="Book a Meeting"
-                                path="/contact"
                             />
                         </div>
                     </div>
