@@ -1,7 +1,7 @@
+import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
 import Button from "../../components/button";
 import SectionTitle from "../../components/section-title";
-import Parallax from "parallax-js";
 
 const AboutContainer = () => {
     const sceneEl = useRef(null);
@@ -23,7 +23,7 @@ const AboutContainer = () => {
                         <div className="about-content">
                             <SectionTitle
                                 classOption="title-section"
-                                subTitle="ABOUT US"
+                                subTitle="WHY CHOOSE US"
                                 title="Best <span class='text-primary'>
                                     Digital Agency</span>
                                 <br className='d-none d-xl-block' />

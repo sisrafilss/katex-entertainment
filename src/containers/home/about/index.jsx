@@ -1,7 +1,7 @@
+import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
 import Button from "../../../components/button";
 import SectionTitle from "../../../components/section-title";
-import Parallax from "parallax-js";
 
 const HomeAboutContainer = () => {
     const sceneEl = useRef(null);
@@ -23,10 +23,10 @@ const HomeAboutContainer = () => {
                         <div className="about-content">
                             <SectionTitle
                                 classOption="title-section"
-                                subTitle="ABOUT US"
+                                subTitle="WHY CHOOSE US"
                                 title="Best 
-                                <span class='text-primary'>
-                                    Digital Agency
+                                <span style='color: red;'>
+                                    Entertainment
                                 </span>
                                 <br className='d-none d-xl-block' />
                                 in the Town"
@@ -44,7 +44,7 @@ const HomeAboutContainer = () => {
                                 are extremely painful. Nor again is there
                             </p>
                             <Button
-                                classOption="btn btn-lg btn-dark btn-hover-dark"
+                                classOption="btn btn-lg btn-dark btn-custom-hover"
                                 text="Learn more"
                                 path="/about"
                             />
