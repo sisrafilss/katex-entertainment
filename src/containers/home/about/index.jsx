@@ -29,7 +29,7 @@ const HomeAboutContainer = () => {
                                     Entertainment
                                 </span>
                                 <br className='d-none d-xl-block' />
-                                company in the Town"
+                                company in Town"
                             />
                             <span className="date-meta">
                                 Scince 2001 <span className="hr"></span>
