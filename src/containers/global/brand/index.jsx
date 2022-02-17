@@ -1,7 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import HomeData from "../../../data/home.json";
 import Brand from "../../../components/brand/index";
+import HomeData from "../../../data/home.json";
+import "./index.css";
 
 const BrandContainer = () => {
     const swiperOption = {
@@ -36,7 +37,7 @@ const BrandContainer = () => {
         },
     };
     return (
-        <div className="brand-section section-py">
+        <div className="brand-section section-py brand">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
