@@ -11,7 +11,7 @@ const NewsletterArea = () => {
                         <SectionTitle
                             classOption="title-section mb-10 text-center"
                             subTitle="NEWSLETTER"
-                            title="Subscribe <span class='text-primary'>Newsletter</span> &amp;
+                            title="Subscribe <span style='color:red'>Newsletter</span> &amp;
                             <br class='d-none d-xl-block' />get latest update..."
                         />
                     </div>

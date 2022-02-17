@@ -12,7 +12,7 @@ const ServiceListContainer = () => {
                         <SectionTitle
                             classOption="title-section mb-10 pb-10 text-center"
                             subTitle="services"
-                            title="Check <span class='text-primary'>our</span> Services"
+                            title="Check <span style='color: red'>Our</span> Services"
                             excerptClassOption="null"
                             excerpt="Pleasure rationally encounter consequences that are <br class='d-none d-xl-block' /> painful. Nor again is there anyone who pursues"
                         />

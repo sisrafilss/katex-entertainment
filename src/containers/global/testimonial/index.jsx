@@ -1,10 +1,10 @@
+import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
-import SectionTitle from "../../../components/section-title";
+import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import SectionTitle from "../../../components/section-title";
 import Testimonial from "../../../components/testimonial";
 import HomeData from "../../../data/home.json";
-import SwiperCore, { Navigation } from "swiper";
-import Parallax from "parallax-js";
 
 SwiperCore.use([Navigation]);
 const TestimonialContainer = () => {
@@ -57,7 +57,7 @@ const TestimonialContainer = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 subTitle="TESTIMONIALS"
-                                title="Don’t Believe us Check <span class='text-primary'>Clients</span> word"
+                                title="Don’t Believe us Check <span style='color: red'>Clients</span> word"
                             />
                             <h5 className="happy-customer">
                                 More over{" "}
@@ -81,10 +81,16 @@ const TestimonialContainer = () => {
                                         }
                                     )}
                             </Swiper>
-                            <div className="swiper-button-prev">
+                            <div
+                                className="swiper-button-prev"
+                                style={{ color: "red" }}
+                            >
                                 <i className="icofont-rounded-left"></i>prev
                             </div>
-                            <div className="swiper-button-next">
+                            <div
+                                className="swiper-button-next"
+                                style={{ color: "red" }}
+                            >
                                 Next
                                 <i className="icofont-rounded-right"></i>
                             </div>

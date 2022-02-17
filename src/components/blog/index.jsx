@@ -1,7 +1,8 @@
+import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import { slugify } from "../../utils";
+import "./index.css";
 
 const BlogGrid = ({ data, classOption }) => {
     return (
@@ -29,7 +30,7 @@ const BlogGrid = ({ data, classOption }) => {
                 >
                     <span className="blog-meta date">{data.date}</span>
                 </Link>
-                <h3 className="title">
+                <h3 className="title blog-title">
                     <Link
                         to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}
                     >

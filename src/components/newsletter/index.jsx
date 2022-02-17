@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
 import PropTypes from "prop-types";
+import React, { Fragment } from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const CustomForm = ({ status, message, onValidated }) => {
@@ -30,7 +30,11 @@ const CustomForm = ({ status, message, onValidated }) => {
                     onChange={(e) => inputChangedHandler(e)}
                     ref={(node) => (email = node)}
                 />
-                <button className="search-btn" type="submit" onClick={submit}>
+                <button
+                    className="search-btn btn-custom-hover"
+                    type="submit"
+                    onClick={submit}
+                >
                     Subscribe
                 </button>
             </form>
