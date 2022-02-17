@@ -37,8 +37,8 @@ const BrandContainer = () => {
         },
     };
     return (
-        <div className="brand-section section-py brand">
-            <div className="container">
+        <div className="brand-section section-py ">
+            <div className="container brand">
                 <div className="row">
                     <div className="col-12">
                         <Swiper className="brand-carousel" {...swiperOption}>
