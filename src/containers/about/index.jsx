@@ -24,10 +24,10 @@ const AboutContainer = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 subTitle="WHY CHOOSE US"
-                                title="Best <span class='text-primary'>
-                                    Digital Agency</span>
+                                title="Best <span style='color:red'>
+                                    Entertainment</span>
                                 <br className='d-none d-xl-block' />
-                                in the Town"
+                                company in Town"
                             />
                             <span className="date-meta">
                                 Scince 2001 <span className="hr"></span>

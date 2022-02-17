@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import Button from "../../../components/button";
 import IconBox from "../../../components/icon-box";
 import SectionTitle from "../../../components/section-title";
@@ -19,7 +19,7 @@ const IconBoxContainer = ({ classOption }) => {
                         <SectionTitle
                             classOption="title-section"
                             subTitle="FEATURES"
-                            title="We are <span class='text-primary'>different</span> because..."
+                            title="We are <span style='color:red'>different</span> because..."
                             excerptClassOption="mb-10"
                             excerpt="Pleasure rationally encounter consequences that are extremely
                             painful. Nor again is there anyone who loves or pursues or
