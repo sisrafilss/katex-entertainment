@@ -26,7 +26,7 @@ const IconBoxContainer = ({ classOption }) => {
                             desires to obtain"
                         />
                         <Button
-                            classOption="btn btn-lg btn-dark btn-hover-dark"
+                            classOption="btn btn-lg btn-dark btn-custom-hover"
                             text="Get Started"
                             path="/about"
                         />

@@ -1,7 +1,6 @@
 import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
-import BrandContainer from "../containers/global/brand/index";
 import FunFactContainer from "../containers/global/funfact";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
@@ -29,7 +28,7 @@ const ServicePage = () => {
                     <TestimonialReverse />
                     <FunFactContainer classOption="mt-0 mt-lg-0" />
                     <TeamContainer classOption="null" />
-                    <BrandContainer />
+                    {/* <BrandContainer /> */}
                     <NewsletterArea />
                     <Footer />
                     <ScrollToTop />

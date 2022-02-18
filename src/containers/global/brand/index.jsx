@@ -11,7 +11,7 @@ const BrandContainer = () => {
         autoplay: {
             delay: 2000,
         },
-        slidesPerView: 4,
+        slidesPerView: 5,
         spaceBetween: 0,
         pagination: false,
         navigation: false,
