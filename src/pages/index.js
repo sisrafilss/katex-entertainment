@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import BrandContainer from "../containers/global/brand/index";
+import FunFactContainer from "../containers/global/funfact";
 import IconBoxContainer from "../containers/global/icon-box";
 import NewsletterArea from "../containers/global/newsletter";
 import TestimonialContainer from "../containers/global/testimonial";
@@ -26,7 +27,7 @@ const HomePage = () => {
                     <HomeAboutContainer />
                     <ServiceListContainer />
                     <TestimonialContainer />
-                    {/* <FunFactContainer classOption="mt-10 mt-lg-0" /> */}
+                    <FunFactContainer classOption="mt-10 mt-lg-0" />
                     {/* <TeamContainer classOption="section-pb" /> */}
                     <HomeBlog />
                     <NewsletterArea />
