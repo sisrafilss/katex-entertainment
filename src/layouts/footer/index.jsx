@@ -17,12 +17,11 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <Logo
-                                    classOption="footer-logo mb-9"
+                                    classOption="footer-logo mb-5"
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
                                 />
-                                <p>
-                                    Pleasure rationally encounter consequences
-                                    that extremely painful. Nor again is there
+                                <p className="mb-4">
+                                    Bringing Entertainment at your Fingertips
                                 </p>
                                 <ul className="footer-social-links">
                                     <li>
@@ -111,10 +110,46 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
-                                <p>
-                                    245 Southern Street, Apt. 147 New York, USA
-                                </p>
-                                <ul className="address">
+                                <div>
+                                    <h5 className="h5">
+                                        Corporate Head Office
+                                    </h5>
+                                    <p>
+                                        House#424, Road#07, DOHS Baridhara,{" "}
+                                        <br />
+                                        Dhaka, Bangladesh <br />
+                                        <ul className="address">
+                                            <li>
+                                                <a
+                                                    className="address-link"
+                                                    href="tel:+ +88-02-8411765"
+                                                >
+                                                    +88-02-8411765
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 className="h5">German Office</h5>
+                                    <p>
+                                        Stellwerk, str.48, 85386 <br />
+                                        Moosburg, Germany <br />
+                                        <ul className="address">
+                                            <li>
+                                                <a
+                                                    className="address-link"
+                                                    href="tel:+4915783801162"
+                                                >
+                                                    Mobile Number:
+                                                    +4915783801162
+                                                </a>
+                                            </li>{" "}
+                                        </ul>
+                                    </p>
+                                </div>
+
+                                {/* <ul className="address">
                                     <li>
                                         <a
                                             className="address-link"
@@ -147,7 +182,7 @@ const Footer = () => {
                                             www.example.com
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>
@@ -160,7 +195,8 @@ const Footer = () => {
                             <div className="copyright-info text-center">
                                 <p>
                                     Copyright &copy; 2022{" "}
-                                    <i className="icofont-heart-alt"></i> By{" "}
+                                    {/* <i className="icofont-heart-alt"></i> */}
+                                    By{" "}
                                     <a
                                         href="https://katex-entertainments.netlify.app/"
                                         target="_blank"
