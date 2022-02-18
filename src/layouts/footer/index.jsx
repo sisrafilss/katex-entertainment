@@ -14,7 +14,7 @@ const Footer = () => {
                 /> */}
                 <div className="container">
                     <div className="row mb-n7">
-                        <div className="col-lg-3 col-sm-6 mb-7">
+                        <div className="col-md-4 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <Logo
                                     classOption="footer-logo mb-9"
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6 mb-7 offset-xl-1">
+                        <div className="col-md-4 col-sm-6 mb-7 d-flex justify-content-center">
                             <div className="footer-widget">
                                 <h4 className="title">Quick Link</h4>
                                 <ul className="footer-menu">
@@ -79,18 +79,7 @@ const Footer = () => {
                                                 "/service"
                                             }
                                         >
-                                            Pricing Plan
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/about"
-                                            }
-                                        >
-                                            Conditions
+                                            Service
                                         </Link>
                                     </li>
                                     <li>
@@ -103,16 +92,7 @@ const Footer = () => {
                                             Blog Post
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL + "/team"
-                                            }
-                                        >
-                                            Our Clients
-                                        </Link>
-                                    </li>
+
                                     <li>
                                         <Link
                                             className="footer-link"
@@ -127,80 +107,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-sm-6 mb-7">
-                            <div className="footer-widget">
-                                <h4 className="title">Services</h4>
-                                <ul className="footer-menu">
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/2`
-                                            }
-                                        >
-                                            Business Plan
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/3`
-                                            }
-                                        >
-                                            Creative Strategy
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/4`
-                                            }
-                                        >
-                                            Branding{" "}
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/1`
-                                            }
-                                        >
-                                            Digital Solution
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/5`
-                                            }
-                                        >
-                                            Marketing Policy
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/6`
-                                            }
-                                        >
-                                            Campaign &amp; PR
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-6 mb-7">
+
+                        <div className="col-md-4 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
                                 <p>
@@ -272,3 +180,79 @@ const Footer = () => {
 };
 
 export default Footer;
+
+{
+    /* <div className="col-lg-2 col-sm-6 mb-7">
+                            <div className="footer-widget">
+                                <h4 className="title">Services</h4>
+                                <ul className="footer-menu">
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                `/service-details/2`
+                                            }
+                                        >
+                                            Business Plan
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                `/service-details/3`
+                                            }
+                                        >
+                                            Creative Strategy
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                `/service-details/4`
+                                            }
+                                        >
+                                            Branding{" "}
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                `/service-details/1`
+                                            }
+                                        >
+                                            Digital Solution
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                `/service-details/5`
+                                            }
+                                        >
+                                            Marketing Policy
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                `/service-details/6`
+                                            }
+                                        >
+                                            Campaign &amp; PR
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> */
+}
