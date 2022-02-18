@@ -31,11 +31,11 @@ const TestimonialContainer = () => {
     }, []);
     return (
         <div className="testimonial-section section-py position-relative">
-            <img
+            {/* <img
                 className="tetimonial-shape"
                 src={`${process.env.PUBLIC_URL}/images/testimonial/shape.png`}
                 alt=""
-            />
+            /> */}
             <div className="container">
                 <div className="row mb-n7">
                     <div className="col-xl-7 col-lg-6 mb-7">

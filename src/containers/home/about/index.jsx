@@ -68,11 +68,11 @@ const HomeAboutContainer = () => {
                     </div>
                 </div>
             </div>
-            <img
+            {/* <img
                 className="about-shape"
                 src={`${process.env.PUBLIC_URL}/images/about/shape.png`}
                 alt="bg-shape"
-            />
+            /> */}
         </div>
     );
 };

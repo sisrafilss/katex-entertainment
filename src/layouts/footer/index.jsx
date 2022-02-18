@@ -7,11 +7,11 @@ const Footer = () => {
     return (
         <footer className="footer-section">
             <div className="footer-top position-relative">
-                <img
+                {/* <img
                     className="footer-shape"
                     src={process.env.PUBLIC_URL + "/images/footer/1.png"}
                     alt="shape"
-                />
+                /> */}
                 <div className="container">
                     <div className="row mb-n7">
                         <div className="col-lg-3 col-sm-6 mb-7">
