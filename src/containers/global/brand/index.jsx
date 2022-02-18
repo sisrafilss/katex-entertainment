@@ -7,7 +7,7 @@ import "./index.css";
 const BrandContainer = () => {
     const swiperOption = {
         loop: true,
-        speed: 800,
+        speed: 500,
         autoplay: {
             delay: 2000,
         },

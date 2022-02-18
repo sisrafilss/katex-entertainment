@@ -4,7 +4,7 @@ const Brand = ({ data }) => {
     return (
         <div className="single-brand">
             <img
-                style={{ width: "200px", height: "120px" }}
+                style={{ width: "150px", height: "80px" }}
                 src={process.env.PUBLIC_URL + data.image}
                 alt="brand logo"
             />

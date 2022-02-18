@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import Funfact from "../../../components/funfact";
 import HomeData from "../../../data/home.json";
 
@@ -13,7 +13,7 @@ const FunFactContainer = ({ classOption }) => {
                     {HomeData[4].funfact &&
                         HomeData[4].funfact.map((single, key) => {
                             return (
-                                <div key={key} className="col-md-3 col-6 mb-7">
+                                <div key={key} className="col-md-4 col-6 mb-7">
                                     <Funfact data={single} key={key} />
                                 </div>
                             );
