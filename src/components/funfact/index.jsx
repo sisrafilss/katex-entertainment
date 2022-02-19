@@ -25,7 +25,9 @@ const Funfact = ({ data }) => {
                 </span>
                 +
             </span>
-            <h6 className="sub-title">{data.title}</h6>
+            <h6 className="sub-title" style={{ lineHeight: "1.5" }}>
+                {data.title}
+            </h6>
         </div>
     );
 };

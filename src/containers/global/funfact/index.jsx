@@ -13,10 +13,7 @@ const FunFactContainer = ({ classOption }) => {
                     {HomeData[4].funfact &&
                         HomeData[4].funfact.map((single, key) => {
                             return (
-                                <div
-                                    key={key}
-                                    className="col-md-4 col-sm-12 mb-7"
-                                >
+                                <div key={key} className="col-md-4 col-4 mb-7">
                                     <Funfact data={single} key={key} />
                                 </div>
                             );
