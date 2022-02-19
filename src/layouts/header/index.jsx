@@ -33,7 +33,7 @@ const Header = () => {
                 <CallToAction />
                 <div className="container">
                     <div
-                        style={{ paddingTop: "11px" }}
+                        style={{ paddingTop: "8px", paddingBottom: "8px" }}
                         className="row align-items-center"
                     >
                         <div className="col">

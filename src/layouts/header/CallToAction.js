@@ -17,7 +17,6 @@ const styles = {
         backgroundColor: "rgb(166, 22, 22)",
         height: "20px",
         width: "100%",
-        marginTop: "-20px",
         padding: "7px 0px 35px 0px",
         // textAlign: "center",
     },
