@@ -66,12 +66,12 @@ const MobileMenu = ({ show, onClose }) => {
                                 >
                                     Service
                                 </NavLink>
-                                <span
+                                {/* <span
                                     className="menu-expand"
                                     onClick={onClickHandler}
                                     aria-hidden="true"
-                                ></span>
-                                <ul>
+                                ></span> */}
+                                {/* <ul>
                                     <li>
                                         <NavLink
                                             to={
@@ -92,9 +92,9 @@ const MobileMenu = ({ show, onClose }) => {
                                             single service
                                         </NavLink>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink to="/">Pages</NavLink>
                                 <span
                                     className="menu-expand"
@@ -119,17 +119,17 @@ const MobileMenu = ({ show, onClose }) => {
                                         </NavLink>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li>
                                 <NavLink to={process.env.PUBLIC_URL + "/blog"}>
                                     Blog
                                 </NavLink>
-                                <span
+                                {/* <span
                                     className="menu-expand"
                                     onClick={onClickHandler}
                                     aria-hidden="true"
-                                ></span>
-                                <ul>
+                                ></span> */}
+                                {/* <ul>
                                     <li>
                                         <NavLink
                                             to={
@@ -169,7 +169,7 @@ const MobileMenu = ({ show, onClose }) => {
                                             blog details
                                         </NavLink>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li>
                                 <NavLink

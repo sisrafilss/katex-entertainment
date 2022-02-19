@@ -4,7 +4,10 @@ import "./index.css";
 
 const Logo = ({ image, classOption }) => {
     return (
-        <Link className={`${classOption}`} to={process.env.PUBLIC_URL + "/"}>
+        <Link
+            className={`${classOption} d-flex`}
+            to={process.env.PUBLIC_URL + "/"}
+        >
             <img
                 className="logo-main"
                 src={process.env.PUBLIC_URL + image}
