@@ -42,13 +42,16 @@ const ContactForm = () => {
                     {errors.email && <p>{errors.email.message}</p>}
                 </div>
 
-                <div className="col-12 mb-9">
+                <div
+                    className="col-12 mb-9"
+                    style={{ height: "700px !important" }}
+                >
                     <textarea
                         className="form-control massage-control"
                         name="message"
                         id="massage"
-                        cols="30"
-                        rows="10"
+                        cols="50"
+                        rows="20"
                         placeholder="Message"
                         ref={register({
                             required: "Message is required",

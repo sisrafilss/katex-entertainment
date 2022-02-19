@@ -23,11 +23,11 @@ const IconBoxContainer = ({ classOption }) => {
                             excerptClassOption="mb-10"
                             excerpt="We deliver world class products  that are loved and appreciated by millions"
                         />
-                        <Button
+                        {/* <Button
                             classOption="btn btn-lg btn-dark btn-custom-hover"
                             text="Get Started"
                             path="/about"
-                        />
+                        /> */}
                     </div>
 
                     <div className="col-12">

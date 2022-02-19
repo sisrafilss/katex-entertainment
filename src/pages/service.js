@@ -27,7 +27,7 @@ const ServicePage = () => {
                     <ServiceListContainer />
                     <TestimonialReverse />
                     <FunFactContainer classOption="mt-0 mt-lg-0" />
-                    <TeamContainer classOption="null" />
+                    {/* <TeamContainer classOption="null" /> */}
                     {/* <BrandContainer /> */}
                     <NewsletterArea />
                     <Footer />

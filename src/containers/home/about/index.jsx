@@ -31,9 +31,9 @@ const HomeAboutContainer = () => {
                                 <br className='d-none d-xl-block' />
                                 company in Town"
                             />
-                            <span className="date-meta">
+                            {/* <span className="date-meta">
                                 Scince 2001 <span className="hr"></span>
-                            </span>
+                            </span> */}
                             <p className="mb-5">
                                 We are changing the trend of digital
                                 entertainment by offering world class digital

@@ -29,9 +29,9 @@ const AboutContainer = () => {
                                 <br className='d-none d-xl-block' />
                                 company in Town"
                             />
-                            <span className="date-meta">
+                            {/* <span className="date-meta">
                                 Scince 2001 <span className="hr"></span>
-                            </span>
+                            </span> */}
                             <p className="mb-5">
                                 We are changing the trend of digital
                                 entertainment by offering world class digital
@@ -46,11 +46,11 @@ const AboutContainer = () => {
                                 backed by a very strong work force keeping us
                                 sustainable over the years.
                             </p>
-                            <Button
+                            {/* <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
                                 text="Learn more"
                                 path="/about"
-                            />
+                            /> */}
                         </div>
                     </div>
                     <div className="col-xl-6 order-lg-first col-md-6 mb-7">
