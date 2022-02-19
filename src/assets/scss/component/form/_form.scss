@@ -28,7 +28,7 @@
 // stylelint-disable selector-no-qualifying-type
 textarea {
     &.form-control {
-        max-height: 325px;
+        max-height: 335px;
         @include max-screen(767) {
             max-height: 170px;
         }
