@@ -2,9 +2,9 @@
     {
         "id": 1,
         "media": {
-            "rcImage": "./images/blog/post/1.png",
-            "gridImage": "./images/blog/1.png",
-            "largeImage": "./images/blog-details/1.png"
+            "rcImage": "./images/blog-details/bangladeshi-video-gann.svg",
+            "gridImage": "./images/blog-details/bangladeshi-video-gann.svg",
+            "largeImage": "./images/blog-details/bangladeshi-video-gann.svg"
         },
         "title": "Bangladeshi video gaan",
         "author": "Adam",
@@ -25,9 +25,9 @@
     {
         "id": 2,
         "media": {
-            "rcImage": "./images/blog/post/2.png",
-            "gridImage": "images/blog/2.png",
-            "largeImage": "./images/blog-details/1.png"
+            "rcImage": "./images/blog-details/list-of-best-tv-series.svg",
+            "gridImage": "./images/blog-details/list-of-best-tv-series.svg",
+            "largeImage": "./images/blog-details/list-of-best-tv-series.svg"
         },
         "title": "List of Best TV Series 2021",
         "author": "Kristina",
@@ -45,9 +45,9 @@
     {
         "id": 3,
         "media": {
-            "rcImage": "./images/blog/post/3.png",
-            "gridImage": "images/blog/3.png",
-            "largeImage": "./images/blog-details/1.png"
+            "rcImage": "./images/blog-details/animate-movie.jpg",
+            "gridImage": "./images/blog-details/animate-movie.jpg",
+            "largeImage": "./images/blog-details/animate-movie.jpg"
         },
         "title": "Anime movies",
         "author": "Ethan",
@@ -71,9 +71,9 @@
     {
         "id": 4,
         "media": {
-            "rcImage": "./images/blog/post/1.png",
-            "gridImage": "images/blog/4.png",
-            "largeImage": "./images/blog-details/1.png"
+            "rcImage": "./images/blog-details/best-tv-series-of-all-time.jpg",
+            "gridImage": "./images/blog-details/best-tv-series-of-all-time.jpg",
+            "largeImage": "./images/blog-details/best-tv-series-of-all-time.jpg"
         },
         "title": "List of the Best TV Series of All Time",
         "author": "Adam",
@@ -93,9 +93,9 @@
     {
         "id": 5,
         "media": {
-            "rcImage": "./images/blog/post/2.png",
-            "gridImage": "images/blog/6.png",
-            "largeImage": "./images/blog-details/1.png"
+            "rcImage": "./images/blog-details/what-tv-series-to-watch.png",
+            "gridImage": "./images/blog-details/what-tv-series-to-watch.png",
+            "largeImage": "./images/blog-details/what-tv-series-to-watch.png"
         },
         "title": "What TV series to watch?",
         "author": "Kristina",

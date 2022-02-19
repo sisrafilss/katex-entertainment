@@ -23,7 +23,7 @@ const AboutPage = () => {
                     <PageBanner
                         title="About us"
                         excerpt="We are changing the trend of digital entertainment by offering world class digital media products. Our company is proud to be backed by a very strong work force keeping us sustainable over the years."
-                        image="./images/banner/1.png"
+                        image="./images/banner/1.svg"
                     />
                     <IconBoxContainer classOption="section-pt" />
                     <BrandContainer />
