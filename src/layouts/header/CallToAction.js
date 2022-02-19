@@ -4,7 +4,7 @@ const CallToAction = () => {
     return (
         <div style={styles.ctaContainer}>
             <div className="container">
-                <p style={styles.p}>Email: support@designhubtechnologies.com</p>
+                <p style={styles.p}>Email : support@katexentertainment.com</p>
             </div>
         </div>
     );

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Logo from "../../components/logo";
 import SocialIcon from "../../components/social-icon";
 
+import "./footer.css";
+
 const Footer = () => {
     return (
         <footer className="footer-section">
