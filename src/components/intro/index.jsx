@@ -26,11 +26,13 @@ const Intro = ({ data }) => {
                                 className="title animated"
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             ></h2>
-                            <Button
-                                classOption="btn btn-lg animated delay1 btn-dark btn-custom-hover  me-4 mb-3 mb-sm-0"
-                                text="Get Started"
-                                path="/about"
-                            />
+                            <a
+                                className="btn btn-lg animated delay1 btn-dark btn-custom-hover  me-4 mb-3 mb-sm-0"
+                                // className="address-link"
+                                href="tel:+ +88-02-8411765"
+                            >
+                                Contact Us
+                            </a>
                         </div>
                     </div>
                     <div className="col-lg-6">

@@ -2,6 +2,7 @@ import { Fragment, useEffect, useState } from "react";
 import Logo from "../../components/logo";
 import MainMenu from "../../components/menu/main-menu";
 import MobileMenu from "../../components/menu/mobile-menu";
+import CallToAction from "./CallToAction";
 
 const Header = () => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -29,6 +30,7 @@ const Header = () => {
                     scroll > headerTop ? "is-sticky" : ""
                 }`}
             >
+                <CallToAction />
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col">

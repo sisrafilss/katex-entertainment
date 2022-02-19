@@ -42,13 +42,15 @@ const BrandContainer = () => {
         infinite: true,
         accessibility: true,
         arrows: false,
-        speed: 1000,
+        speed: 3000,
+        // autoplaySpeed: 3000,
         slidesToShow: 6,
-        slidesToScroll: 1,
+        // slidesToScroll: 500000,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 0,
         cssEase: "linear",
         pauseOnHover: true,
+        useTransform: true,
         responsive: [
             {
                 breakpoint: 1024,
