@@ -18,8 +18,7 @@ const BlogPage = () => {
                     <Header />
                     <PageBanner
                         title="Blog Post"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="Please have a look at our latest blogs"
                         image="./images/blog/banner.png"
                     />
                     <BlogItemContainer data={BlogData} />

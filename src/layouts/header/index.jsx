@@ -33,10 +33,10 @@ const Header = () => {
                 <CallToAction />
                 <div className="container">
                     <div
-                        style={{ paddingTop: "8px", paddingBottom: "8px" }}
+                        // style={{ paddingTop: "8px", paddingBottom: "8px" }}
                         className="row align-items-center"
                     >
-                        <div className="col">
+                        <div className="col ">
                             <div className="header-logo">
                                 <Logo
                                     classOption="d-block"

@@ -51,7 +51,7 @@ const ContactForm = () => {
                         name="message"
                         id="massage"
                         cols="50"
-                        rows="20"
+                        rows="50"
                         placeholder="Message"
                         ref={register({
                             required: "Message is required",

@@ -17,8 +17,7 @@ const ContactPage = () => {
                     <Header />
                     <PageBanner
                         title="Contact us"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="Please reach to us for any queries"
                         image="./images/contact/1.png"
                     />
                     <ContactContainer />

@@ -14,7 +14,7 @@ const Footer = () => {
                 /> */}
                 <div className="container">
                     <div className="row mb-n7">
-                        <div className="col-md-4 col-sm-6 mb-7">
+                        <div className="col-md-4 col-sm-12 mb-7">
                             <div className="footer-widget">
                                 <Logo
                                     classOption="footer-logo mb-5"
@@ -55,7 +55,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 mb-7 d-flex justify-content-center">
+                        <div className="col-md-4 col-sm-12 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Quick Link</h4>
                                 <ul className="footer-menu">
@@ -107,7 +107,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-4 col-sm-6 mb-7">
+                        <div className="col-md-4 col-sm-12 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
                                 <div>
