@@ -46,7 +46,7 @@ const BrandContainer = () => {
         // autoplaySpeed: 3000,
         slidesToShow: 6,
         // slidesToScroll: 500000,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 0,
         cssEase: "linear",
         pauseOnHover: true,
