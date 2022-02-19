@@ -33,13 +33,18 @@ const AboutContainer = () => {
                                 Scince 2001 <span className="hr"></span>
                             </span>
                             <p className="mb-5">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there anyone
-                                who loves or pursues or desires to obtain
+                                We are changing the trend of digital
+                                entertainment by offering world class digital
+                                media products. Our company is proud to be
+                                backed by a very strong work force keeping us
+                                sustainable over the years.
                             </p>
                             <p className="high-light mb-8">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there
+                                We are changing the trend of digital
+                                entertainment by offering world class digital
+                                media products. Our company is proud to be
+                                backed by a very strong work force keeping us
+                                sustainable over the years.
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
