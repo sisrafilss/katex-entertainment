@@ -43,7 +43,7 @@ const BlogDetailsWrap = ({ data }) => {
                     ></div>
                 );
             })}
-            <div className="social-tags d-sm-flex justify-content-between align-items-center">
+            {/* <div className="social-tags d-sm-flex justify-content-between align-items-center">
                 <p className="mb-4 mb-sm-0 d-flex align-items-center">
                     <i className="fa fa-tags"></i>
                     <SidebarTag data={BlogData} />
@@ -75,7 +75,7 @@ const BlogDetailsWrap = ({ data }) => {
                         />
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -23,12 +23,13 @@ const BlogDetailsPage = ({
                 <SEO title="Buznex – Blog Details" />
                 <div className="wrapper">
                     <Header />
-                    <PageBanner
+                    {/* <PageBanner
                         title="Blog Details"
                         excerpt="Pleasure rationally encounter consequences <br />
                         are extremely painful great oppurtunity"
                         image="/images/blog/banner.png"
-                    />
+                    /> */}
+                    <div style={{ marginBottom: "80px" }}></div>
                     <BlogDetailsContainer data={data[0]} />
                     <NewsletterArea />
                     <Footer />
