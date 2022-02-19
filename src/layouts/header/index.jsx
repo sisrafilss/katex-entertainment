@@ -32,7 +32,10 @@ const Header = () => {
             >
                 <CallToAction />
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div
+                        style={{ paddingTop: "11px" }}
+                        className="row align-items-center"
+                    >
                         <div className="col">
                             <div className="header-logo">
                                 <Logo
