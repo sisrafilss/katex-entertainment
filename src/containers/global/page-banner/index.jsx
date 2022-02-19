@@ -6,11 +6,11 @@ import PageTitle from "../../../components/page-title";
 const PageBanner = ({ title, excerpt, image }) => {
     return (
         <div className="banner-section position-relative">
-            <img
+            {/* <img
                 className="banner-shape"
                 src={process.env.PUBLIC_URL + "/images/banner/shape1.png"}
                 alt="shape"
-            />
+            /> */}
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
