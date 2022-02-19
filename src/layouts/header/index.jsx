@@ -31,7 +31,7 @@ const Header = () => {
                 }`}
             >
                 <CallToAction />
-                <div className="container">
+                <div className="container py-1">
                     <div
                         // style={{ paddingTop: "8px", paddingBottom: "8px" }}
                         className="row align-items-center"

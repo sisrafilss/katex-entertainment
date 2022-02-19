@@ -1,7 +1,14 @@
 .logo-text {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 5px;
     color: rgb(255, 15, 28);
     font-size: 18px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+    .logo-in-mobile {
+        height: 55px !important;
+        width: 55px !important;
+    }
 }
