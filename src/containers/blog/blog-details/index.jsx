@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SidebarCategories from "../../../components/sidebar/categories";
-import SidebarSearch from "../../../components/sidebar/search";
-import SidebarTag from "../../../components/sidebar/sidbar-tag";
-import SidebarArchive from "../../../components/sidebar/sidebar-archive";
-import SidebarPost from "../../../components/sidebar/sidebar-post";
-import SidebarTitle from "../../../components/sidebar/sidebar-title";
-import BlogData from "../../../data/blog.json";
+// import SidebarCategories from "../../../components/sidebar/categories";
+// import SidebarSearch from "../../../components/sidebar/search";
+// import SidebarTag from "../../../components/sidebar/sidbar-tag";
+// import SidebarArchive from "../../../components/sidebar/sidebar-archive";
+// import SidebarPost from "../../../components/sidebar/sidebar-post";
+// import SidebarTitle from "../../../components/sidebar/sidebar-title";
+// import BlogData from "../../../data/blog.json";
 import BlogDetailsWrap from "../../../components/blog-details";
-import Comment from "../../../components/comment";
+// import Comment from "../../../components/comment";
 
 const BlogDetailsContainer = ({ data }) => {
     return (
