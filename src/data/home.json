@@ -12,35 +12,35 @@
         "brand": [
             {
                 "id": 1,
-                "image": "./images/brand-logo/1.png"
+                "image": "./images/brand-logo/brack-logo.png"
             },
             {
                 "id": 2,
-                "image": "./images/brand-logo/2.png"
+                "image": "./images/brand-logo/emirates-logo.png"
             },
             {
                 "id": 3,
-                "image": "./images/brand-logo/3.png"
+                "image": "./images/brand-logo/hbcc-logo.png"
             },
             {
                 "id": 4,
-                "image": "./images/brand-logo/4.png"
+                "image": "./images/brand-logo/ipa-logo.jpeg"
             },
             {
                 "id": 5,
-                "image": "./images/brand-logo/5.png"
+                "image": "./images/brand-logo/qatar-airways-logo.png"
             },
             {
                 "id": 6,
-                "image": "./images/brand-logo/6.jpg"
+                "image": "./images/brand-logo/uk-aid-logo.jpeg"
             },
             {
                 "id": 7,
-                "image": "./images/brand-logo/7.jpg"
+                "image": "./images/brand-logo/uk-government-logo.png"
             },
             {
                 "id": 8,
-                "image": "./images/brand-logo/8.png"
+                "image": "./images/brand-logo/uniliver-logo.png"
             }
         ]
     },
