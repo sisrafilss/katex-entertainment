@@ -17,10 +17,11 @@ const BlogDetailsPage = ({
 }) => {
     const blogId = parseInt(id, 10);
     const data = BlogData.filter((blogItem) => blogItem.id === blogId);
+    console.log(data);
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Katex Entertainment – Blog Details" />
+                <SEO title={`Katex Entertainment – ${data[0].title}`} />
                 <div className="wrapper">
                     <Header />
                     {/* <PageBanner
