@@ -14,7 +14,7 @@ const ServiceListContainer = () => {
                             subTitle="services"
                             title="Check <span style='color: red'>Our</span> Services"
                             excerptClassOption="null"
-                            excerpt="Pleasure rationally encounter consequences that are <br class='d-none d-xl-block' /> painful. Nor again is there anyone who pursues"
+                            excerpt="We strive to provide an outstanding service to all of our clients. Please have a look at our offerings."
                         />
                     </div>
                 </div>
