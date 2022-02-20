@@ -25,9 +25,9 @@
     {
         "id": 2,
         "media": {
-            "rcImage": "./images/blog-details/list-of-tv-series.png",
-            "gridImage": "./images/blog-details/list-of-tv-series.png",
-            "largeImage": "./images/blog-details/list-of-tv-series.png"
+            "rcImage": "./images/blog-details/blog-2-min.png",
+            "gridImage": "./images/blog-details/blog-2-min.png",
+            "largeImage": "./images/blog-details/blog-2-min.png"
         },
         "title": "List of Best TV Series 2021",
         "author": "Kristina",
@@ -45,9 +45,9 @@
     {
         "id": 3,
         "media": {
-            "rcImage": "./images/blog-details/animate-move-min.png",
-            "gridImage": "./images/blog-details/animate-move-min.png",
-            "largeImage": "./images/blog-details/animate-move-min.png"
+            "rcImage": "./images/blog-details/animate-movie.png",
+            "gridImage": "./images/blog-details/animate-movie.png",
+            "largeImage": "./images/blog-details/animate-movie.png"
         },
         "title": "Anime movies",
         "author": "Ethan",
@@ -71,9 +71,9 @@
     {
         "id": 4,
         "media": {
-            "rcImage": "./images/blog-details/blog-4-min.jpg",
-            "gridImage": "./images/blog-details/blog-4-min.jpg",
-            "largeImage": "./images/blog-details/blog-4-min.jpg"
+            "rcImage": "./images/blog-details/blog-4.png",
+            "gridImage": "./images/blog-details/blog-4.png",
+            "largeImage": "./images/blog-details/blog-4.png"
         },
         "title": "List of the Best TV Series of All Time",
         "author": "Adam",
@@ -93,9 +93,9 @@
     {
         "id": 5,
         "media": {
-            "rcImage": "./images/blog-details/what-tv-series-to-watch.png",
-            "gridImage": "./images/blog-details/what-tv-series-to-watch.png",
-            "largeImage": "./images/blog-details/what-tv-series-to-watch.png"
+            "rcImage": "./images/blog-details/blog-5.png",
+            "gridImage": "./images/blog-details/blog-5.png",
+            "largeImage": "./images/blog-details/blog-5.png"
         },
         "title": "What TV series to watch?",
         "author": "Kristina",

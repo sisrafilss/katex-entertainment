@@ -13,11 +13,9 @@ const ContactContainer = () => {
                         <div className="contact-title-section">
                             <h3 className="title">Get in touch</h3>
                             <p>
-                                Top rated construction packages we pleasure
-                                rationally encounter
-                                <br className="d-none d-xl-block" />
-                                consequences interesting who loves or pursue or
-                                desires
+                                Working with globally recognised brands has
+                                enabled us to have offices in multiple locations
+                                across the globe.
                             </p>
                         </div>
 
