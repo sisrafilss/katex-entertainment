@@ -14,7 +14,7 @@ const BrandContainer = () => {
         autoplay: {
             delay: 1000,
         },
-        slidesPerView: 5,
+        slidesPerView: 6,
         spaceBetween: 0,
         pagination: false,
         navigation: false,
@@ -22,20 +22,20 @@ const BrandContainer = () => {
         breakpoints: {
             // when window width is >= 320px
             320: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             },
             // when window width is >= 480px
             480: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             },
             // when window width is >= 640px
             768: {
-                slidesPerView: 3,
+                slidesPerView: 4,
             },
 
             // when window width is >= 640px
             992: {
-                slidesPerView: 4,
+                slidesPerView: 6,
             },
         },
     };
