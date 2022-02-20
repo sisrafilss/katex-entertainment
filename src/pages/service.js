@@ -20,8 +20,7 @@ const ServicePage = () => {
                     <Header />
                     <PageBanner
                         title="Our Services"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="Highly evolved video streaming technology and a high attention to quality of experience across devices and platforms."
                         image="./images/service/our-services.svg"
                     />
                     <ServiceListContainer />
