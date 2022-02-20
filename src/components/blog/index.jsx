@@ -10,7 +10,12 @@ const BlogGrid = ({ data, classOption }) => {
             <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
                 <div className={`thumb bg-light text-center ${classOption}`}>
                     <img
-                        style={{ maxWidth: "360px", maxHeight: "215px" }}
+                        style={{
+                            maxWidth: "360px",
+                            minWidth: "360px",
+                            maxHeight: "215px",
+                            minHeight: "215px",
+                        }}
                         src={`${process.env.PUBLIC_URL}/${data.media.gridImage}`}
                         alt="img"
                     />

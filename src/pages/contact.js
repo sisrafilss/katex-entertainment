@@ -18,7 +18,7 @@ const ContactPage = () => {
                     <PageBanner
                         title="Contact us"
                         excerpt="Please reach to us for any queries"
-                        image="./images/contact/1.png"
+                        image="./images/contact/contact-us.svg"
                     />
                     <ContactContainer />
                     <NewsletterArea />
