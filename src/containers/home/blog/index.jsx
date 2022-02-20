@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BlogGrid from "../../../components/blog";
+import Button from "../../../components/button";
 import SectionTitleTwo from "../../../components/section-title-two";
 import BlogData from "../../../data/blog.json";
 
@@ -7,13 +9,34 @@ const HomeBlog = () => {
     return (
         <div className="blog-section section-pb">
             <div className="container">
-                <SectionTitleTwo
-                    classOption="title-section mb-lg-10 pb-lg-1"
-                    subTitle="BLOG POST"
-                    title="Latest <span style='color:red'>Post</span> from Blog"
-                    excerptClassOption="mt-lg-10 pt-lg-3 mb-10 mb-lg-0"
-                    excerpt="Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain"
-                />
+                {/* className="mt-lg-10 pt-lg-3 mb-10 mb-lg-0" */}
+                {/* <Button
+                        classOption="btn btn-lg btn-dark btn-custom-hover"
+                        text="Read All Blogs"
+                        path="/blog"
+                    /> */}
+
+                <div className=" d-flex justify-content-between">
+                    <div>
+                        <div className="title-section title-section mb-lg-10 pb-lg-1">
+                            <span className="sub-title">BLOG POST</span>
+                            <h3 className="title mb-lg-0">
+                                Latest{" "}
+                                <span style={{ color: "red" }}>Post</span>{" "}
+                                <br /> from Blog
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <Button
+                            classOption="btn btn-lg btn-dark btn-custom-hover mt-8 pt-4"
+                            style={{ paddingTop: "10px !important" }}
+                            text="See All"
+                            path="/blog"
+                        />
+                    </div>
+                </div>
+
                 <div className="row mb-n7">
                     {BlogData &&
                         BlogData.slice(0, 3).map((single, key) => {
