@@ -60,7 +60,7 @@ const HomeAboutContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/about/1.png`}
+                                    src={`${process.env.PUBLIC_URL}/images/about/Why-choose-us-min.png`}
                                     alt="about"
                                     className="img-fluid"
                                     style={{ width: "120%", height: "auto" }}

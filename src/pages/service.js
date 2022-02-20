@@ -22,7 +22,7 @@ const ServicePage = () => {
                         title="Our Services"
                         excerpt="Pleasure rationally encounter consequences <br />
                         are extremely painful great oppurtunity"
-                        image="./images/service/2.png"
+                        image="./images/service/our-services.svg"
                     />
                     <ServiceListContainer />
                     <TestimonialReverse />

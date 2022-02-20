@@ -25,9 +25,9 @@
     {
         "id": 2,
         "media": {
-            "rcImage": "./images/blog-details/list-of-best-tv-series.svg",
-            "gridImage": "./images/blog-details/list-of-best-tv-series.svg",
-            "largeImage": "./images/blog-details/list-of-best-tv-series.svg"
+            "rcImage": "./images/blog-details/list-of-tv-series.png",
+            "gridImage": "./images/blog-details/list-of-tv-series.png",
+            "largeImage": "./images/blog-details/list-of-tv-series.png"
         },
         "title": "List of Best TV Series 2021",
         "author": "Kristina",
@@ -45,9 +45,9 @@
     {
         "id": 3,
         "media": {
-            "rcImage": "./images/blog-details/animate-movie.jpg",
-            "gridImage": "./images/blog-details/animate-movie.jpg",
-            "largeImage": "./images/blog-details/animate-movie.jpg"
+            "rcImage": "./images/blog-details/animate-move-min.png",
+            "gridImage": "./images/blog-details/animate-move-min.png",
+            "largeImage": "./images/blog-details/animate-move-min.png"
         },
         "title": "Anime movies",
         "author": "Ethan",
@@ -71,9 +71,9 @@
     {
         "id": 4,
         "media": {
-            "rcImage": "./images/blog-details/best-tv-series-of-all-time.jpg",
-            "gridImage": "./images/blog-details/best-tv-series-of-all-time.jpg",
-            "largeImage": "./images/blog-details/best-tv-series-of-all-time.jpg"
+            "rcImage": "./images/blog-details/blog-4-min.jpg",
+            "gridImage": "./images/blog-details/blog-4-min.jpg",
+            "largeImage": "./images/blog-details/blog-4-min.jpg"
         },
         "title": "List of the Best TV Series of All Time",
         "author": "Adam",

@@ -60,7 +60,10 @@ const AboutContainer = () => {
                             ref={sceneEl}
                         >
                             <div data-depth="0.2">
-                                <img src="./images/about/1.png" alt="about" />
+                                <img
+                                    src="./images/about/Why-choose-us-min.png"
+                                    alt="about"
+                                />
                             </div>
                         </div>
                     </div>
