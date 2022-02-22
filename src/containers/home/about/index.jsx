@@ -58,7 +58,7 @@ const HomeAboutContainer = () => {
                             id="scene"
                             ref={sceneEl}
                         >
-                            <div data-depth="0.2">
+                            <div>
                                 <img
                                     src={`${process.env.PUBLIC_URL}/images/about/Why-choose-us-min.png`}
                                     alt="about"

@@ -59,7 +59,7 @@ const AboutContainer = () => {
                             id="scene"
                             ref={sceneEl}
                         >
-                            <div data-depth="0.2">
+                            <div>
                                 <img
                                     src="./images/about/Why-choose-us-min.png"
                                     alt="about"

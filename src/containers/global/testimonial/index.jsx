@@ -44,7 +44,7 @@ const TestimonialContainer = () => {
                             id="scene"
                             ref={sceneEl}
                         >
-                            <div data-depth="0.2">
+                            <div>
                                 <img
                                     src={`${process.env.PUBLIC_URL}/images/testimonial/1.png`}
                                     alt="Buznex"

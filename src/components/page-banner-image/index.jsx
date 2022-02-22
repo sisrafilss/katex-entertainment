@@ -20,7 +20,7 @@ const PageBannerImage = ({ image }) => {
             id="scene"
             ref={sceneEl}
         >
-            <div data-depth="0.2">
+            <div>
                 <img src={process.env.PUBLIC_URL + image} alt="img" />
             </div>
         </div>

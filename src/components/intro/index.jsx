@@ -41,7 +41,7 @@ const Intro = ({ data }) => {
                             id="scene"
                             ref={sceneEl}
                         >
-                            <div data-depth="0.2">
+                            <div>
                                 <img
                                     className="animated"
                                     src={`${process.env.PUBLIC_URL}/${data.image}`}
