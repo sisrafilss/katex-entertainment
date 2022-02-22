@@ -17,27 +17,6 @@ const SEO = ({ title }) => {
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
-
-            <meta
-                property="og:title"
-                content="Bringing Entertainment at your Fingertips"
-            />
-            <meta property="og:type" content="article" />
-            <meta
-                property="og:image"
-                content="https://i.ibb.co/MnXxxWF/logo.png"
-            />
-            <meta
-                property="og:url"
-                content="https://katex-entertainments.netlify.app/"
-            />
-            <meta name="twitter:card" content={logo} />
-            <meta
-                property="og:description"
-                content="Bringing Entertainment at your Fingertips"
-            />
-            <meta property="og:site_name" content="Katex Entertainment" />
-            <meta name="twitter:image:alt" content="Katex Entertainment Logo" />
         </Helmet>
     );
 };
