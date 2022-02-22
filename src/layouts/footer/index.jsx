@@ -29,14 +29,14 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.facebook.com/"
+                                            path="https://facebook.com/Katex-Entertainment-Ltd-103731102248863/"
                                             icon="icofont-facebook"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.instagram.com/"
+                                            path="https://instagram.com/katex_entertainment/"
                                             icon="icofont-instagram"
                                         />
                                     </li>
@@ -50,8 +50,16 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.whatsapp.com/"
-                                            icon="icofont-whatsapp"
+                                            path="https://linkedin.com/company/katex-entertainment-ltd/"
+                                            icon="icofont-linkedin"
+                                        />
+                                    </li>
+
+                                    <li>
+                                        <SocialIcon
+                                            classOption="footer-social-link"
+                                            path="https://pin.it/1AXPQfN"
+                                            icon="icofont-pinterest"
                                         />
                                     </li>
                                 </ul>
