@@ -58,7 +58,7 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://pin.it/1AXPQfN"
+                                            path="https://www.pinterest.com/katexentertainment/"
                                             icon="icofont-pinterest"
                                         />
                                     </li>

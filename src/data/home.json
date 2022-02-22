@@ -73,24 +73,24 @@
         "testimonial": [
             {
                 "id": 1,
-                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "excerpt": "One of the pioneering companies offering modern cloud based solutions to its clients. I am very satisfied with their services. ",
                 "authorThumb": "./images/testimonial/avater.png",
-                "name": "David Loyed",
-                "designation": "CEO, Omex"
+                "name": "Farhan Shakil Ahmed ",
+                "designation": "CEO, Covidsurokkha"
             },
             {
                 "id": 2,
-                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "excerpt": "Katex Entertainment maintains the International standards whenever they are involved in any tech based work.",
                 "authorThumb": "./images/testimonial/2.png",
-                "name": "John Loyed",
-                "designation": "CEO, Omex"
+                "name": "Aktaruzzaman Khan",
+                "designation": "Head of Marketing, ShoesByEnvy"
             },
             {
                 "id": 3,
-                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "excerpt": "Even after our contract period ended, I could easily reach out to the customer service team for any kind of queries. They go out of their ways to accommodate clients.",
                 "authorThumb": "./images/testimonial/avater.png",
-                "name": "David Loyed",
-                "designation": "CEO, Omex"
+                "name": "Rony Rezaul",
+                "designation": "Managing Director,  RonyRezaul"
             }
         ]
     },
