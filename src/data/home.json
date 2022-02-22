@@ -41,6 +41,18 @@
             {
                 "id": 8,
                 "image": "./images/brand-logo/uniliver-logo.png"
+            },
+            {
+                "id": 9,
+                "image": "./images/brand-logo/Bospho_Final-Logo.png"
+            },
+            {
+                "id": 10,
+                "image": "./images/brand-logo/covid-surakkha-logo.png"
+            },
+            {
+                "id": 11,
+                "image": "./images/brand-logo/DesignhubTechnologiesLogo.png"
             }
         ]
     },
