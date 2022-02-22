@@ -8,7 +8,15 @@ const BlogGrid = ({ data, classOption }) => {
     return (
         <div className="blog-card">
             <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
-                <div className={`thumb bg-light text-center ${classOption}`}>
+                <div
+                    style={{
+                        maxWidth: "360px",
+                        minWidth: "360px",
+                        maxHeight: "215px",
+                        minHeight: "215px",
+                    }}
+                    className={`thumb bg-light text-center ${classOption}`}
+                >
                     <img
                         style={{
                             maxWidth: "360px",
