@@ -23,7 +23,10 @@ const SEO = ({ title }) => {
                 content="Bringing Entertainment at your Fingertips"
             />
             <meta property="og:type" content="article" />
-            <meta property="og:image" content={logo} />
+            <meta
+                property="og:image"
+                content="https://i.ibb.co/MnXxxWF/logo.png"
+            />
             <meta
                 property="og:url"
                 content="https://katex-entertainments.netlify.app/"
