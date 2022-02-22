@@ -16,7 +16,7 @@ const CustomForm = ({ status, message, onValidated }) => {
     };
     // Change Handaler
     const inputChangedHandler = (e) => {
-        console.log(e.target.value);
+        // console.log(e.target.value);
     };
     return (
         <Fragment>

@@ -17,7 +17,6 @@ const BlogDetailsPage = ({
 }) => {
     const blogId = parseInt(id, 10);
     const data = BlogData.filter((blogItem) => blogItem.id === blogId);
-    console.log(data);
     return (
         <React.Fragment>
             <Layout>
