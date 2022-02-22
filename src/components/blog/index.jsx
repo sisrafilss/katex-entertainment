@@ -10,8 +10,8 @@ const BlogGrid = ({ data, classOption }) => {
             style={{
                 maxWidth: "360px",
                 minWidth: "360px",
-                maxHeight: "215px",
-                minHeight: "215px",
+                // maxHeight: "215px",
+                // minHeight: "215px",
             }}
             className="blog-card"
         >
