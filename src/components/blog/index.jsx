@@ -6,21 +6,13 @@ import "./index.css";
 
 const BlogGrid = ({ data, classOption }) => {
     return (
-        <div
-            style={{
-                maxWidth: "360px",
-                minWidth: "360px",
-                // maxHeight: "215px",
-                // minHeight: "215px",
-            }}
-            className="blog-card"
-        >
+        <div className="blog-card">
             <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
                 <div
                     style={{
                         maxWidth: "360px",
                         minWidth: "360px",
-                        maxHeight: "215px",
+                        // maxHeight: "215px",
                         minHeight: "215px",
                     }}
                     className={`thumb bg-light text-center ${classOption}`}
