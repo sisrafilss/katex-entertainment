@@ -9,13 +9,14 @@ import PropTypes from "prop-types";
 // import BlogData from "../../../data/blog.json";
 import BlogDetailsWrap from "../../../components/blog-details";
 // import Comment from "../../../components/comment";
+import "./index.css";
 
 const BlogDetailsContainer = ({ data }) => {
     return (
         <div className="blog-section section-py">
-            <div className="container">
+            <div id="blog-detail-contaienr" className="container">
                 <div className="row mb-n7">
-                    <div className="col-xl-8 col-lg-8 mb-7">
+                    <div className="mb-7 col">
                         <div className="blog-details-content">
                             <BlogDetailsWrap data={data} />
                             {/* <div className="blog-comments ">
