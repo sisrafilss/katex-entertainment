@@ -72,6 +72,14 @@ const Footer = () => {
                                     <li>
                                         <Link
                                             className="footer-link"
+                                            to={process.env.PUBLIC_URL + "/"}
+                                        >
+                                            Home
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
                                                 "/about"
