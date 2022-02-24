@@ -22,8 +22,22 @@ const Footer = () => {
                                     classOption="footer-logo mb-5"
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
                                 />
-                                <p className="mb-4">
+                                <p className="mb-2">
                                     Bringing Entertainment at your Fingertips
+                                    through seamless streaming services.
+                                </p>
+                                <p className="mb-4">
+                                    Feel free to message us for any queries:{" "}
+                                    <ul className="address">
+                                        <li>
+                                            <a
+                                                className="address-link"
+                                                href="mailto:support@katexentertainment.com"
+                                            >
+                                                support@katexentertainment.com
+                                            </a>
+                                        </li>{" "}
+                                    </ul>
                                 </p>
                                 <ul className="footer-social-links">
                                     <li>

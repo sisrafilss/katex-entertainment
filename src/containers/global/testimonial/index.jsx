@@ -57,10 +57,10 @@ const TestimonialContainer = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 subTitle="TESTIMONIALS"
-                                title="Don’t Believe us Check <span style='color: red'>Clients</span> word"
+                                title="Don’t Believe us. Check our <span style='color: red'>Clients</span> words"
                             />
                             <h5 className="happy-customer">
-                                More over{" "}
+                                More than{" "}
                                 <span className="font-weight-bold">1000</span>{" "}
                                 happy Clients
                             </h5>

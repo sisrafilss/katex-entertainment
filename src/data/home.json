@@ -53,6 +53,10 @@
             {
                 "id": 11,
                 "image": "./images/brand-logo/DesignhubTechnologiesLogo.png"
+            },
+            {
+                "id": 12,
+                "image": "./images/brand-logo/icinema_logo.png"
             }
         ]
     },

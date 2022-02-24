@@ -12,7 +12,7 @@ const NewsletterArea = () => {
                             classOption="title-section mb-10 text-center"
                             subTitle="NEWSLETTER"
                             title="Subscribe to our <span style='color:red'>Newsletter</span> and
-                            <br class='d-none d-xl-block' />get latest updates..."
+                            get latest updates..."
                         />
                     </div>
                     <div className="col-xl-8 col-lg-10 mx-auto">

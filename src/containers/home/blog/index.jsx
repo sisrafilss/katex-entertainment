@@ -22,8 +22,8 @@ const HomeBlog = () => {
                             <span className="sub-title">BLOG POST</span>
                             <h3 className="title mb-lg-0">
                                 Latest{" "}
-                                <span style={{ color: "red" }}>Post</span>{" "}
-                                <br /> from Blog
+                                <span style={{ color: "red" }}>Post</span> from
+                                Blog
                             </h3>
                         </div>
                     </div>
